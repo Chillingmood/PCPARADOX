@@ -1,0 +1,122 @@
+header{
+	position:relative;
+	width: 1000px;
+	margin:20px auto;
+	height:120px;
+	background:#444;
+	}
+	
+nav{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:48px;
+	}
+	
+footer{
+	width: 1000px;
+	margin:20px auto;
+	height:70px;
+	background:#888;
+	}
+
+.opcion{
+	float:left;
+	width:196px;
+	margin:0px 2px;
+	height:48px;
+	background:#333;
+	list-style:none;
+	}	
+#top{
+	position:relative;
+	margin:20px auto;
+	width:1000px;
+	height:192px;
+	}
+
+#top ul{
+	width:1010px;
+	height:192px;
+		list-style:none;
+	}
+	
+#top ul li{
+	float:left;
+	width:326px;
+	height:192px;
+	background:black;
+	margin-right:10px;
+	}
+	
+section{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:453px;
+	background:#aaa;
+	}
+
+aside#izq{
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+	height:453px;
+	background:#333;
+	}
+	
+article{
+	position:absolute;
+	left:200px;
+	top:0;
+	width:600px;
+	height:453px;
+	background:#666;
+	}
+	
+aside#der{
+	position:absolute;
+	right:0;
+	top:0;
+	width:200px;
+	height:453px;
+	background:#333;
+	}
+
+#logo{
+	position: absolute;
+	top: 30px;
+	left: 50px;
+	width: 300px;
+	height: 60px;
+	background: #CCC;
+}
+
+.redes{
+	width: 42px;
+	height: 42px;
+	border-radius: 50%;
+	background: #CCC;	
+}
+
+#icono1{
+	position: absolute;
+	top: 50px;
+	right: 120px;
+}
+#icono2{
+	position: absolute;
+	top: 50px;
+	right: 70px;
+}
+#icono3{
+	position: absolute;
+	top: 50px;
+	right: 20px;
+}
+
+*{
+	margin:0;
+	padding:0;
+	}

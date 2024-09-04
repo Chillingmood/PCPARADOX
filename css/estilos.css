@@ -1,0 +1,50 @@
+header{
+	width: 1000px;
+	height:120px;
+	background:#444;
+	margin:auto;
+	}
+	
+nav{
+	width: 1000px;
+	margin: auto;
+	height:48px;
+	}
+	
+	
+section{
+	width: 100px;
+	height:453px;
+		margin:auto;
+	background:#aaa;
+	}
+	
+			
+div{
+	width: 1000px;
+	margin: 10px auto;
+	height:250px;
+	background: antiquewhite;
+	}
+
+	
+footer{
+	width: 1000px;
+	margin:20px auto;
+	height:70px;
+	background:#888;
+	}
+
+.opcion{
+	float:left; /*tiene la misma funcionalidad que el inline block*/
+	width:196px;
+	margin:2px 2px;
+	height:48px;
+	background:black;
+	list-style:none; /*se retiran las viñetas*/
+	}	
+
+*{
+	margin:0;
+	padding:0;
+	}
