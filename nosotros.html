@@ -1,0 +1,136 @@
+<!doctype html>
+<!--Estructura general y estilos para colorear cada sección-->
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Estructura HTML + CSS</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
+	<style>
+
+	*{
+		margin: 0px;
+		padding: 0px;
+	}
+
+	body{
+		background-image: url('patron.png');
+		background-repeat: repeat;
+		background-position: top left;
+		background-attachment: fixed;
+	}
+
+	header{
+		position:relative;
+		width: 1000px;
+		margin:20px auto;
+		height:120px;
+		background:#444;
+	}
+
+
+	.opcion{
+		
+		float:left;
+		width:192px;
+		margin:0px 2px;
+		height:48px;
+		background-color:#b38e8e;
+		/*background-image: url('patron.png');*/
+		list-style:none;
+		font-family: "Matemasie", sans-serif;
+		color: white;
+		text-align: center;
+		line-height: 48px;
+  		font-style: normal;
+		border-top: 2px solid rgba(48, 107, 93, 0.76); 
+		border-bottom: 2px solid rgba(48, 107, 93, 0.76); 
+		}	
+
+	#logo{
+		position:absolute;
+		top:30px;
+		left:30px;
+		width:200px;
+		height:60px;
+		font-size:50px;
+		text-align:center;
+		line-height:60px;
+		background-color: #FFFFFF;
+		background-image: url("patron.png");
+
+	}
+
+	#icono1{
+		top:42px;
+		right:120px;
+		background:#FFF;
+	}
+		
+	#icono2{
+		top:42px;
+		right:71px;
+		background:#FFF;
+	}
+		
+	#icono3{
+		top:42px;
+		right:19px;
+		background:#FFF;
+	}
+	.redes{
+		position:absolute;
+		width:42px;
+		height:42px;
+		background:#ccc;
+		border-radius:100%;
+		text-align:center;
+		line-height:42px;
+		color:white;
+	}
+	
+	nav{
+		position: relative;
+		height:51px;
+		background-color: rgb(232, 144, 80);
+		display:flex;
+    	justify-content: center;
+    	align-items: center;
+		
+		}
+	ul{
+		width: 1000px;
+	}
+	
+	</style>
+	
+</head>
+
+<body>
+	<!-- Inicia cabecera -->
+	<header>
+		<div id="logo"></div>
+	
+		<div id="icono1" class="redes">X</div>
+		<div id="icono2" class="redes">X</div>
+		<div id="icono3" class="redes">X</div>
+	
+	</header>
+	<!-- Cierra cabecera -->
+	<!-- Inicia Barra de Navegación -->
+	<nav>
+		<div id="contenedor">
+			<ul>
+				<li class="opcion">Home</li>
+				<li class="opcion">Promociones</li>
+				<li class="opcion">Productos</li>
+				<li class="opcion">Servicios</li>
+				<li class="opcion">Contáctenos</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- Cierra Barra de Navegación -->
+
+</body>
+</html>

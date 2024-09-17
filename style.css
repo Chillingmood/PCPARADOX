@@ -18,7 +18,7 @@ html,body{
 .header{ display: flex;
     min-height: 8vh;
     align-items: center;
-    background-color: #e05ca5;
+    background-color: #429027;
 
 
 }
@@ -28,37 +28,128 @@ html,body{
 
 
 /*NAVBAR*/
-
+.logo{ margin-left: 120px;
+   display: flex;
+   color: #FFFFFF;
+}
 
 nav{  display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
     font-family: "Roboto", sans-serif;
-    background-color: #e05ca5;
+    background-color: #5AFDB8;
     padding: 5px;
 
 }
 .nav-links{
     float:left; /*tiene la misma funcionalidad que el inline block*/
     list-style: none;	
-    align-items: center;	
+    align-items: center;
+    
 	}	
 	
  .opcion{
     float:left; /*tiene la misma funcionalidad que el inline block*/
-	width:196px;	
+	width:170.66px;	
 	list-style:none; /*se retiran las viñetas*/
+    position: relative;
+    right:280px;
+   
+   
  }  
  .opcion a{
     text-decoration: none;
-    color: white;
+    color: #0E5321;
     text-align: center;
- } 
+    
 
+ } 
+.icon-nav{
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    
+ 
+   
+    
+}
+
+.log-in{
+    padding: 5px;
+    position:absolute;
+    left: 1100px;
+   
+}
+.log-in a{
+    position:absolute;
+   padding: 5px ;
+    text-decoration: none;
+   width: 150px;
+   left: 5px;
+   color: #FFFFFF;
+  
+ 
+
+}
+.shop-bag{padding: 5px;
+    position:absolute;
+    left: 1251px;
+   
+
+}
+.shop-bag a{  position:absolute;
+    padding: 5px ;
+     text-decoration: none;
+    width: 120px;
+    left: 5px;
+    color: #FFFFFF;
+    
+   
+
+}
+
+@media screen and (max-width:1440px){
+    .nav-links{
+        width: 60%;
+        float:left; /*tiene la misma funcionalidad que el inline block*/
+        list-style: none;	
+        align-items: center;
+    }
+    .opcion{
+        float:left; /*tiene la misma funcionalidad que el inline block*/
+        width:170.66px;	
+        list-style:none; /*se retiran las viñetas*/
+        position: relative;
+        right:160px;
+       
+       
+     }  
+     .opcion a{
+        text-decoration: none;
+        color: #0E5321;
+        text-align: center;
+        
+    
+     } 
+     
+     
+}
 
  /*NAVBAR*/
 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ /*HERO*/
  .inicio {
 padding: 20px;  
 min-height:80vh; 
@@ -68,14 +159,16 @@ align-items:center;
 justify-content: center; 
 }
 
-.banner {  
+.grid-banner {  
 display: grid;
 grid-template-columns: repeat(auto, auto); /* Define dos columnas */
 grid-template-rows: 191px; /* Ajusta la altura de las filas automáticamente */
 gap: 20px; /* Espacio entre las imágenes */
+position:absolute ;
+top: 180px;
 
 }
-.banner img { 
+.grid-banner img { 
     display: block; 
     }
 
@@ -93,4 +186,4 @@ height: 162px; /* Alto específico para las imágenes pequeñas */
 grid-column: 2 / 3;
     }
     
-   
+ /*HERO*/  
