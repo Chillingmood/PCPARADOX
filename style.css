@@ -59,3 +59,38 @@ nav{  display: flex;
 
  /*NAVBAR*/
 
+ .inicio {
+padding: 20px;  
+min-height:80vh; 
+margin:0 auto;   
+display:flex;     
+align-items:center;  
+justify-content: center; 
+}
+
+.banner {  
+display: grid;
+grid-template-columns: repeat(auto, auto); /* Define dos columnas */
+grid-template-rows: 191px; /* Ajusta la altura de las filas automáticamente */
+gap: 20px; /* Espacio entre las imágenes */
+
+}
+.banner img { 
+    display: block; 
+    }
+
+
+
+.grande {
+   
+    width: 657px; /* Ancho específico para la imagen grande */    
+    height: 373px; /* Alto específico para la imagen grande */
+    }
+
+.pequeña {
+ width: 208px; /* Ancho específico para las imágenes pequeñas */       
+height: 162px; /* Alto específico para las imágenes pequeñas */
+grid-column: 2 / 3;
+    }
+    
+   
