@@ -113,46 +113,15 @@ nav{  display: flex;
 
 }
 
-@media screen and (max-width:1440px){
-    .nav-links{
-        width: 60%;
-        float:left; /*tiene la misma funcionalidad que el inline block*/
-        list-style: none;	
-        align-items: center;
-    }
-    .opcion{
-        float:left; /*tiene la misma funcionalidad que el inline block*/
-        width:170.66px;	
-        list-style:none; /*se retiran las viñetas*/
-        position: relative;
-        right:160px;
-       
-       
-     }  
-     .opcion a{
-        text-decoration: none;
-        color: #0E5321;
-        text-align: center;
-        
-    
-     } 
-     
-     
-}
+
 
  /*NAVBAR*/
 
-
- 
- 
- 
- 
- 
  
  /*HERO*/
  .inicio {
 padding: 20px;  
-min-height:80vh; 
+min-height:50vh; 
 margin:0 auto;   
 display:flex;     
 align-items:center;  
@@ -187,3 +156,45 @@ grid-column: 2 / 3;
     }
     
  /*HERO*/  
+
+ 
+ /*HOME ITEMS*/
+ 
+ .products{
+    min-height: 80vh;
+ }
+ .items{
+    display: flex;
+    padding: 20px; 
+    align-items:center;  
+justify-content: center; 
+position: relative;
+bottom: 190px;
+ }
+ .product-title{
+    text-align: left;
+    position: absolute;
+    left: 512px;
+    font-size: 16PX;
+ }
+.product-links{
+    list-style: none;
+    display: flex;
+    position: absolute;
+    right: 512px;
+    gap: 20px; 
+      
+}
+.product-links a{
+    text-decoration: none;
+    color: black;
+}
+
+.price{
+    width: 217px;
+    height: 362px;
+    position: relative;
+    top: 250px;
+    
+    
+}
