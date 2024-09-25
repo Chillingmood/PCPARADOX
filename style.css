@@ -163,15 +163,13 @@ grid-column: 2 / 3;
     
  }
  .items{
-  display: grid;
-  padding: 20px; 
+  display: flex;
+  padding: 5px; 
   align-items: center;  
   justify-content: center; 
-  min-height: 75vh;
-  grid-template-columns: repeat(5, 1fr); /* Define four columns with equal width */
-  grid-template-rows: repeat(2, 1fr); /* Define (number) rows with equal height */
-  grid-gap: 10px;
-  position: relative;
+  min-height: 8h;
+
+ 
 
   
  }
@@ -182,45 +180,53 @@ grid-column: 2 / 3;
     font-size: 16PX;
  }
 .product-links{
-  display: flex;
-  white-space: nowrap;
-  justify-content: space-around;
-  list-style: none;
-  gap: 4%;
-  text-align: right;
-  position: relative;
-  left: 85%;
-  bottom: 40%;
+  min-height: 10vh ;
+  display: grid;
+  justify-content: center;
+  grid-row: 1;
+  grid-column: 3;
+
   
-      
+    
 }
+
 .product-links h1{
-  position: relative;
-  right: 47%;
+ 
+  
 }
 
 
+.product-links  ul li{
+  list-style: none; 
+}
 .product-links a{
   text-decoration: none;
   color: black;
-  position: relative;
+}
+.l{
+  max-width: 217px;
+  max-height: 362px;
+  grid-column: 3; /* Place elements in the second column */
+  
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.l:first-of-type{
+
+  
 
 }
 .price{
-  max-width: 217px;
-  max-height: 362px;
-  grid-column: auto; /* Place elements in the second column */
-  grid-row: 2;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  right: 50%;
-  bottom: 70%;
-}
-
-.price:first-of-type{
-  position: relative;
-  left: 35%;
+  display: grid;
+  padding: 20px; 
+  align-items: center;  
+  justify-content: center; 
+  min-height: 75vh;
+  grid-template-columns: repeat(4, 1fr); /* Define four columns with equal width */
+  grid-template-rows: repeat(2, 1fr); /* Define (number) rows with equal height */
+  grid-gap: 10px;
 
 }
 .price h1{
