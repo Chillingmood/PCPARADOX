@@ -164,11 +164,12 @@ grid-column: 2 / 3;
  }
  .items{
   display: flex;
-  padding: 5px; 
-  align-items: center;  
-  justify-content: center; 
-  min-height: 8h;
-
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  font-family: "Roboto", sans-serif;
+  background-color: #5AFDB8;
+  padding: 5px;
  
 
   
@@ -180,11 +181,12 @@ grid-column: 2 / 3;
     font-size: 16PX;
  }
 .product-links{
-  min-height: 10vh ;
-  display: grid;
-  justify-content: center;
-  grid-row: 1;
-  grid-column: 3;
+  display: flex;
+  white-space: nowrap;
+  justify-content: space-around;
+  list-style: none;
+  gap: 7%;
+  margin-right:18%; 
 
   
     
@@ -261,7 +263,7 @@ justify-content: center;
   align-items: center;
   display: grid;
   position: relative;
-  left: 10%;
+  right: 80%;
  
 }
 .offert-info h3{
@@ -275,7 +277,7 @@ justify-content: center;
   align-items: center;
   display: grid;
   position: relative;
-  left: 60%;
+  left: 70%;
   bottom: 220px;
 
 }
@@ -375,3 +377,27 @@ justify-content: center;
   height: 20px;
 }
 
+/*registro*/
+.Register{
+  display: flex;
+  min-height: 70vh;
+  justify-content: center;
+  padding: 10px;
+}
+.contrg{ 
+  max-width: 600px;
+  background-color: #1b8558;  
+   
+  padding: 25px 30px;
+  border-radius:5px ;
+}
+.tittle-contrg{
+  font-size: 25px;
+
+}
+.contrg form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 10px 12px 0;
+}
